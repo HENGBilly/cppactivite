@@ -13,8 +13,10 @@ int main() {
 
         if (nombre < nbrSecret) {
             cout << "Plus grand !" << endl;
+            cout << "Il vous reste " << 9 - tentative << " tentatives." << endl;
         } else if (nombre > nbrSecret) {
             cout << "Plus petit !" << endl;
+            cout << "Il vous reste " << 9 - tentative << " tentatives." << endl;
         } else {
             cout << "Gagné !" << endl;
             break;
